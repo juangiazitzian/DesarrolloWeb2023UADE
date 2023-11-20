@@ -5,6 +5,14 @@
     --jellybean: #2688A9;
 }
 
+*{
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100&display=swap');
+
+/* ----------------- NAVBAR ----------------- */
+
 nav{
     font-size: 1.8rem;
     background-color: #01192C;
@@ -14,7 +22,7 @@ nav{
 .navbar-brand{
     background-color: #01192C;
     position: relative;
-    width: 8rem;
+    width: 5.6rem;
     left: 0.3rem;
     background-size: contain;
 }
@@ -23,3 +31,7 @@ nav{
     padding-left:0.5rem;
     padding-right:0.5rem;
   }
+
+nav .active{
+    color:            #F8F8F8;
+}
