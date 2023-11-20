@@ -1,17 +1,17 @@
-:root{
+:root {
     --blackpearl: #01192C;
     --calico: #E4C69D;
     --scooter: #43C8D8;
     --jellybean: #2688A9;
 }
 
-nav{
+nav {
     font-size: 1.8rem;
     background-color: #01192C;
-    color:#E4C69D;
+    color: #E4C69D;
 }
 
-.navbar-brand{
+.navbar-brand {
     background-color: #01192C;
     position: relative;
     width: 8rem;
@@ -19,7 +19,25 @@ nav{
     background-size: contain;
 }
 
-.navbar-nav li{
-    padding-left:0.5rem;
-    padding-right:0.5rem;
-  }
+.navbar-nav li {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.card-img-top {
+    width: 700px;
+    height: 700px;
+    border: 5px solid #000;
+}
+
+.card-img-bottom {
+    width: 700px;
+    height: 700px;
+    border: 5px solid #000;
+
+}
+
+.card-body {
+    background-color: var(--calico);
+
+}
