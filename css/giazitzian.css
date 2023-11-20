@@ -108,7 +108,7 @@ nav{
 
 footer {
     background-color: var(--blackpearl);
-    color: #fff;
+    color: var(--calico);
     padding: 50px;
     display: flex;
     flex-wrap: wrap;
@@ -119,13 +119,23 @@ footer {
 .social-media {
     display: flex;
     gap: 3rem;
-  }
-  .social-media a {
+
+}
+
+.social-media a{
     text-decoration: none;
     color: var(--calico);
     font-size: 24px;
   }
+
+.students ul{
+    list-style-type: none;
+}
   
+.course ul{
+    list-style-type: none;
+}
+
   @media (max-width: 768px) {
     footer {
       flex-direction: column;
