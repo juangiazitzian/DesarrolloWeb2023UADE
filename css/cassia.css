@@ -4,3 +4,22 @@
     --scooter: #43C8D8;
     --jellybean: #2688A9;
 }
+
+nav{
+    font-size: 1.8rem;
+    background-color: #01192C;
+    color:#E4C69D;
+}
+
+.navbar-brand{
+    background-color: #01192C;
+    position: relative;
+    width: 8rem;
+    left: 0.3rem;
+    background-size: contain;
+}
+
+.navbar-nav li{
+    padding-left:0.5rem;
+    padding-right:0.5rem;
+  }
