@@ -145,6 +145,73 @@ nav{
     height: 35rem;
 }
 
+/* ----------------- HISTORIA ----------------- */
+
+.story{
+    display: flex;
+    flex-direction: column;
+}
+
+.story h1{
+    text-align: center;
+    margin: 0;
+    padding-top: 5rem;
+    font-size: 6rem;
+    background-color: var(--calico);
+    color: var(--blackpearl);
+}
+
+.story h2{
+    text-align: center;
+    margin: 0;
+    padding-bottom: 5rem;
+    font-size: 3rem;
+    background-color: var(--calico);
+    color: var(--blackpearl);
+}
+
+.kitchens .carousel-item{
+    height: 40rem;
+}
+
+.kitchens .carousel-caption h3{
+    font-size: 3rem;
+    color: var(--calico);
+    -webkit-text-stroke: 1px var(--blackpearl);
+}
+
+.fundadores{
+    display: flex;
+    background-color: var(--calico);
+}
+
+.fundadores h5{
+    font-size: 4rem;
+    text-align: center;
+}
+
+.fundadores p{
+    text-align: center;
+    text-wrap: wrap;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.founders h4{
+    text-align: center;
+    margin: 0;
+    padding: 5rem;
+    font-size: 6rem;
+    background-color: var(--blackpearl);
+    color: var(--calico);
+}
+
+.card-juan .card-bruno .card-juanma{
+    display: flex;
+    flex-direction: row;
+}
+
+
 /* ----------------- FOOTER ----------------- */
 
 footer {
