@@ -83,25 +83,66 @@ nav{
     padding: 6rem 0;
 }
 
-.card{
-    margin: 5rem;
+.information .card{
+    margin: 2rem;
     background-color: var(--blackpearl);
     color: var(--calico);
     font-size: 1.5rem;
+    text-align: center;
 }
+
 
 /* ----------------- REVIEWS ----------------- */
 
-.carousel-caption{
-    -webkit-text-stroke: 1px black; /* width and color */
+.reviews .carousel-caption{
+    -webkit-text-stroke: 1.4px var(--blackpearl);
 }
 
-.carousel-caption h5{
+.reviews .carousel-caption h5{
     font-size: 3rem;
+    color: var(--calico);
 }
 
-.carousel-caption p{
+.reviews .carousel-caption p{
     font-size: 2rem;
+    color: var(--calico);
+}
+
+.reviews .carousel-item{
+    height: 35rem;
+}
+
+/* ----------------- RESPONSABILIDAD SOCIAL ----------------- */
+
+.commitment h1{
+    text-align: center;
+    margin: 0;
+    padding: 5rem;
+    font-size: 6rem;
+    background-color: var(--calico);
+    color: var(--blackpearl);
+}
+
+.commitment .carousel-item{
+    height: 32rem;
+}
+
+.commitment .carousel-caption{
+    -webkit-text-stroke: 1.4px var(--blackpearl);
+}
+
+.commitment .carousel-caption h2{
+    font-size: 3rem;
+    color: var(--calico);
+}
+
+.commitment .carousel-caption p{
+    font-size: 2rem;
+    color: var(--calico);
+}
+
+.commitment .carousel-item{
+    height: 35rem;
 }
 
 /* ----------------- FOOTER ----------------- */
