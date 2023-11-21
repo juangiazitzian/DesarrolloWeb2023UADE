@@ -5,6 +5,14 @@
     --jellybean: #2688A9;
 }
 
+* {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100&display=swap');
+
+/* ----------------- NAVBAR ----------------- */
+
 nav {
     font-size: 1.8rem;
     background-color: #01192C;
@@ -14,7 +22,7 @@ nav {
 .navbar-brand {
     background-color: #01192C;
     position: relative;
-    width: 8rem;
+    width: 5.6rem;
     left: 0.3rem;
     background-size: contain;
 }
@@ -24,20 +32,74 @@ nav {
     padding-right: 0.5rem;
 }
 
-.card-img-top {
-    width: 700px;
-    height: 700px;
-    border: 5px solid #000;
+nav .active {
+    color: #F8F8F8;
 }
 
-.card-img-bottom {
-    width: 700px;
-    height: 700px;
-    border: 5px solid #000;
-
-}
+/* ----------------- CARD INICIAL ----------------- */
 
 .card-body {
-    background-color: var(--calico);
+    background-color: var(--calico)
+}
 
+
+.card-text {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+.card-title-banner {
+    color: black;
+    align-items: center;
+
+}
+
+.card-title {
+    color: var(--blackpearl);
+
+}
+
+/* ----------------- HISTORIA ----------------- */
+
+
+
+
+/* ----------------- FOOTER ----------------- */
+
+footer {
+    background-color: var(--blackpearl);
+    color: var(--calico);
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.social-media {
+    display: flex;
+    gap: 3rem;
+
+}
+
+.social-media a {
+    text-decoration: none;
+    color: var(--calico);
+    font-size: 24px;
+}
+
+.students ul {
+    list-style-type: none;
+}
+
+.course ul {
+    list-style-type: none;
+}
+
+@media (max-width: 768px) {
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
 }
