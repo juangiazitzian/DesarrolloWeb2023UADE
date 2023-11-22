@@ -19,7 +19,7 @@ nav{
     color:#E4C69D;
 }
 
-.navbar-brand{
+.navbar-brand img{
     background-color: #01192C;
     position: relative;
     width: 5.6rem;
@@ -183,9 +183,10 @@ nav{
 .fundadores{
     display: flex;
     background-color: var(--calico);
+    justify-content: space-between;
 }
 
-.fundadores h5{
+.fundadores h3{
     font-size: 4rem;
     text-align: center;
 }
@@ -197,7 +198,7 @@ nav{
     padding-right: 5rem;
 }
 
-.founders h4{
+.founders h2{
     text-align: center;
     margin: 0;
     padding: 5rem;
@@ -206,11 +207,106 @@ nav{
     color: var(--calico);
 }
 
+.founders .card{
+    background-color: var(--calico);
+}
+
 .card-juan .card-bruno .card-juanma{
     display: flex;
     flex-direction: row;
+    background-color: var(--calico);
 }
 
+.card-text{
+    font-size: 1.5rem;
+}
+
+/* ----------------- CONTACTO ----------------- */
+
+
+.contact h1{
+    text-align: center;
+    margin: 0;
+    padding: 5rem;
+    font-size: 6rem;
+    background-color: var(--calico);
+    color: var(--blackpearl);
+}
+
+.contact h2{
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.contact h3{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.contact ul{
+    text-align: center;
+    list-style-type: none;
+    margin-top: 1.2rem;
+}
+
+.formulario{
+    margin: 5rem;
+    color: var(--calico);
+}
+
+.sucursales{
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+
+.sucursales2{
+    display: flex;
+}
+
+.belgrano{
+    margin-right: 2rem;
+}
+
+.lugano{
+    margin-left: 2rem;
+}
+
+.infoadicional{
+    margin-bottom: 5rem;
+}
+
+.informacion1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--blackpearl);
+}
+
+.informacion2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--calico);
+}
+
+@media (max-width: 57rem) {
+    .informacion2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sucursales2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .belgrano,
+    .lugano {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
 
 /* ----------------- FOOTER ----------------- */
 
