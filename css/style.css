@@ -4,3 +4,443 @@
     --scooter: #43C8D8;
     --jellybean: #2688A9;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100&display=swap');
+
+*{
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+/* ----------------- NAVBAR ----------------- */
+
+nav{
+    font-size: 1.8rem;
+    background-color: #01192C;
+    color:#E4C69D;
+}
+
+.navbar-brand img{
+    background-color: #01192C;
+    position: relative;
+    width: 5.6rem;
+    left: 0.3rem;
+    background-size: contain;
+}
+
+.navbar-nav li{
+    padding-left:0.5rem;
+    padding-right:0.5rem;
+  }
+
+
+
+/* ----------------- BANNER ----------------- */
+
+.banner{
+    position: relative;
+    color: var(--calico);
+}
+
+.banner img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.top-left{
+    position: absolute;
+    top: 30px;
+    left: 24px;
+}
+
+.top-left h1{
+    font-size: 4rem;
+}
+
+@media (max-width: 1200px) {
+    .banner h1{
+        -webkit-text-stroke: 1px var(--blackpearl);
+    }
+}
+
+/* ----------------- CALL TO ACTION ----------------- */
+
+.calltoaction{
+    display: flex;
+    justify-content: center;
+    background-color: var(--blackpearl);
+}
+
+.calltoaction button{
+    color: var(--blackpearl);
+    margin: 10rem;
+    font-size: 6rem;
+    padding: 1rem 2rem;
+    background-color: var(--calico);
+}
+
+/* ----------------- INFO ----------------- */
+
+.information{
+    background-color: var(--calico);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 6rem 0;
+}
+
+.information .card{
+    margin: 2rem;
+    background-color: var(--blackpearl);
+    color: var(--calico);
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+
+/* ----------------- REVIEWS ----------------- */
+
+.reviews .carousel-caption{
+    -webkit-text-stroke: 1.4px var(--blackpearl);
+}
+
+.reviews .carousel-caption h5{
+    font-size: 3rem;
+    color: var(--calico);
+}
+
+.reviews .carousel-caption p{
+    font-size: 2rem;
+    color: var(--calico);
+}
+
+.reviews .carousel-item{
+    
+}
+
+.reviews .carousel-item img {
+    width: 100%;
+    height: auto;
+  }
+
+
+/* ----------------- RESPONSABILIDAD SOCIAL ----------------- */
+
+.commitment h1{
+    text-align: center;
+    margin: 0;
+    padding: 5rem;
+    font-size: 6rem;
+    background-color: var(--calico);
+    color: var(--blackpearl);
+}
+
+.commitment .carousel-item{
+    
+}
+
+.commitment .carousel-caption{
+    -webkit-text-stroke: 1.4px var(--blackpearl);
+}
+
+.commitment .carousel-caption h2{
+    font-size: 3rem;
+    color: var(--calico);
+}
+
+.commitment .carousel-caption p{
+    font-size: 2rem;
+    color: var(--calico);
+}
+
+
+/* ----------------- HISTORIA ----------------- */
+
+.story{
+    display: flex;
+    flex-direction: column;
+}
+
+.story h1{
+    text-align: center;
+    margin: 0;
+    padding-top: 5rem;
+    font-size: 6rem;
+    background-color: var(--calico);
+    color: var(--blackpearl);
+}
+
+.story h2{
+    text-align: center;
+    margin: 0;
+    padding-bottom: 5rem;
+    font-size: 3rem;
+    background-color: var(--calico);
+    color: var(--blackpearl);
+}
+
+.kitchens .carousel-caption h3{
+    font-size: 3rem;
+    color: var(--calico);
+    -webkit-text-stroke: 1px var(--blackpearl);
+}
+
+.founders{
+    overflow-x: hidden;
+}
+
+.fundadores{
+    display: flex;
+    background-color: var(--calico);
+    justify-content: space-between;
+}
+
+.fundadores h3{
+    font-size: 4rem;
+    text-align: center;
+}
+
+.fundadores p{
+    text-align: center;
+    text-wrap: wrap;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.founders h2{
+    text-align: center;
+    margin: 0;
+    padding: 5rem;
+    font-size: 6rem;
+    background-color: var(--blackpearl);
+    color: var(--calico);
+}
+
+.founders .card{
+    background-color: var(--calico);
+}
+
+.card-juan .card-bruno .card-juanma{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--calico);
+}
+
+.card-text{
+    font-size: 1.5rem;
+}
+
+/* ----------------- CONTACTO ----------------- */
+
+
+.contact h1{
+    text-align: center;
+    margin: 0;
+    padding: 5rem;
+    font-size: 6rem;
+    background-color: var(--calico);
+    color: var(--blackpearl);
+}
+
+.contact h2{
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.contact h3{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.contact ul{
+    text-align: center;
+    list-style-type: none;
+    margin-top: 1.2rem;
+}
+
+.formulario{
+    margin: 5rem;
+    color: var(--calico);
+}
+
+.sucursales{
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+
+.sucursales2{
+    display: flex;
+}
+
+.belgrano{
+    margin-right: 2rem;
+}
+
+.lugano{
+    margin-left: 2rem;
+}
+
+.infoadicional{
+    margin-bottom: 5rem;
+}
+
+.informacion1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--blackpearl);
+}
+
+.informacion2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--calico);
+}
+
+@media (max-width: 57rem) {
+    .informacion2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sucursales2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .belgrano,
+    .lugano {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+/* ----------------- FOOTER ----------------- */
+
+footer {
+    background-color: var(--blackpearl);
+    color: var(--calico);
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.social-media {
+    display: flex;
+    gap: 3rem;
+
+}
+
+.social-media a{
+    text-decoration: none;
+    color: var(--calico);
+    font-size: 24px;
+  }
+
+.students ul{
+    list-style-type: none;
+}
+  
+.course ul{
+    list-style-type: none;
+}
+
+  @media (max-width: 768px) {
+    footer {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+
+
+/* ------- Productos ------- */
+
+.shop{
+    padding: 3rem;
+    background-color: var(--blackpearl);
+}
+
+.shop .card-body{
+    background-color: var(--calico);
+}
+
+.products {
+    background-color: var(--calico);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5rem;
+}
+
+.products h1 {
+    font-size: 4rem; /* Ajusta el tamaño de la fuente predeterminado */
+    margin-bottom: 1rem; /* Ajusta el margen inferior predeterminado */
+}
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding: 0.5%;
+    background-color: var(--blackpearl);
+    margin: 2rem; /* Padding más pequeño por defecto */
+}
+
+.shop .card img{
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+.d-flex{
+    gap: 6rem;
+}
+
+.gallery__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gallery__item:nth-child(3) {
+    grid-row-start: span 2;
+}
+
+.gallery__item:nth-child(4) {
+    grid-column-start: span 2;
+}
+
+.gallery__item:nth-child(9) {
+    grid-column-start: span 2;
+}
+
+@media (min-width: 768px) {
+    .products {
+        padding-top: 5%;
+    }
+
+    .products h1 {
+        font-size: 6rem; 
+        margin-bottom: 2rem;
+    }
+
+    .gallery-container {
+        grid-template-columns: repeat(4, 1fr);
+        margin: 2% 2%;
+        max-width: 1200px;
+    }
+
+    .gallery__item:nth-child(2) {
+        grid-column-start: span 2;
+    }
+
+    .gallery__item:nth-child(5),
+    .gallery__item:nth-child(6),
+    .gallery__item:nth-child(8) {
+        grid-row-start: span 2;
+    }
+}
+
